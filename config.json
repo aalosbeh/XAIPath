@@ -1,0 +1,43 @@
+{
+  "model": {
+    "num_classes": 3,
+    "temporal_dim": 128,
+    "env_dim": 64,
+    "lambda_temp": 0.1,
+    "lambda_env": 0.05
+  },
+  "training": {
+    "num_epochs": 100,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-4,
+    "optimizer": "adam",
+    "scheduler": "step",
+    "scheduler_step_size": 30,
+    "scheduler_gamma": 0.1,
+    "gradient_clipping": true,
+    "max_grad_norm": 1.0
+  },
+  "data": {
+    "image_size": [224, 224],
+    "num_workers": 4,
+    "augmentation": true,
+    "test_size": 0.2,
+    "val_size": 0.2
+  },
+  "logging": {
+    "log_interval": 100,
+    "log_dir": "logs",
+    "checkpoint_dir": "checkpoints"
+  },
+  "early_stopping": {
+    "patience": 15,
+    "min_delta": 0.001
+  },
+  "paths": {
+    "data_dir": "data",
+    "figures_dir": "figures",
+    "results_dir": "results"
+  }
+}
+
