@@ -142,7 +142,7 @@ torch.manual_seed(42)
 
 If you use this code, please cite our paper:
 ```bibtex
-@article{alsobeh2024xaipath,
+@article{alsobeh2025xaipath,
   title={XAIPath: Temporal-Environmental Explainable AI Framework for Co-Contaminated Food Pathogen Detection in Microscopic Imaging},
   author={AlSobeh, Anas and AbuGhazaleh, Amer and Dhahir, Namariq and Rababa, Malek},
   journal={Conference Proceedings},
