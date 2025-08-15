@@ -1,12 +1,3 @@
-"""
-XAIPath: Temporal-Environmental Explainable AI Framework for Co-Contaminated Food Pathogen Detection
-
-This module implements the core XAIPath model architecture including:
-- Temporal feature encoding with learnable sinusoidal embeddings
-- Environmental context modeling with gating mechanisms
-- Multi-modal explainability engine with Grad-CAM, SHAP, and LIME
-- Temporal and environmental consistency constraints
-"""
 
 import torch
 import torch.nn as nn
