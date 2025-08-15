@@ -1,14 +1,3 @@
-"""
-Evaluation script for XAIPath framework.
-
-This module provides:
-- Comprehensive model evaluation
-- Generation of all figures and tables for the paper
-- Ablation study analysis
-- Temporal and environmental robustness analysis
-- Explainability quality assessment
-"""
-
 import torch
 import torch.nn as nn
 import numpy as np
