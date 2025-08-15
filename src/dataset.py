@@ -1,13 +1,3 @@
-"""
-Dataset handling and data loading utilities for XAIPath framework.
-
-This module provides:
-- BacterialDataset class for loading microscopic bacterial images
-- Data preprocessing and augmentation pipelines
-- Temporal and environmental metadata handling
-- Train/validation/test split utilities
-"""
-
 import torch
 from torch.utils.data import Dataset, DataLoader
 import torchvision.transforms as transforms
