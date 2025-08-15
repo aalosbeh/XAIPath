@@ -1,13 +1,3 @@
-"""
-Main script for XAIPath framework.
-
-This script runs the complete pipeline:
-1. Data preparation and loading
-2. Model training
-3. Evaluation and analysis
-4. Figure generation for paper
-"""
-
 import os
 import sys
 import json
